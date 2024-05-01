@@ -25,4 +25,7 @@ uvicorn main:app --reload
 ## Test
 
 1. After running the application open the swagger by appending /docs to url. 
-2. Use the API's to test the Haystack. 
+2. Use the API's to test the Haystack.
+3. You should see something like this.
+   ![image](https://github.com/Tejas-ChandraShekarRaju/SampleHaystackImpl/assets/41864599/c4555fa8-8e9f-4ff8-9073-6297c7559f11)
+
