@@ -16,7 +16,7 @@ class SimpleHaystack:
             offset = f.tell()
             f.write(data)
             size = len(data)
-            self.index[file_name] = (offset, size, file_name)
+            self.index[file_name] = (offset, size)
     def save_index(self):
         with open(self.index_file, 'w') as f:
             json.dump(self.index, f)
