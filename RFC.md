@@ -1,16 +1,16 @@
+ 
 
+Request for Comments: 7322                                                                                        Mohammed Siddiq 
 
+Category: Architecture                                                                                                      May 2024 
 
+ 
 
+Enhancing File storage 
 
+Implementing Needle in Haystack 
 
-Request for Comments: 7322                               Mohammed Siddiq
-Category: Architecture                                          May 2024
-ISSN: 2070-1721
-
-
-                           Enhancing File storage
-                      Implementing Needle in Haystack
+  
 
 Abstract: 
 
@@ -18,13 +18,13 @@ This document describes the how our current implementation of Object Storage Ser
 
  
 
-Testing: 
+The Great Testing: 
 
 The test was run on Lenovo Legion Y740-I5RH  
 
 System Specifications: i7-9750H [cores:6, hreads12, max: 4.50 GHz, base: 2.60 GHz], 16gb ram, GTX 1660 ti, 512gb SSD,1TB HHD. 
 
-The dummy file used for testing purpose is “x64n.rpf” which is 1.6gb in size, the image testing.jpg shows the testing time taken to upload as well as download the given file on a haystack storage service model. 
+The dummy file used for testing purpose is “x64n.rpf” which is 1.6gb in size the below image shows the testing time taken to upload as well as download the given file on a haystack storage service model. 
 
 	 
 
@@ -50,7 +50,9 @@ Or we can can have a Table in Database whose one column has keys and the other c
 
 Handling Update endpoint: 
 
-Just like the current implementation a key to existing object in haystack is provided with the content that needs to be appended/updated , the haystack connects to the table with the key name and at the end of table appends the new values of uploaded content. 
+Just like the current implementation a key to existing object in haystack is provided with the content that needs to be appended/updated , the haystack connects to the table with the key name and at the end of table appens the new values of uploaded content. 
+
+ 
 
  
 
