@@ -70,4 +70,8 @@ Logging
 
    Logging of all updates in storage service 
 
+Random Key Generation:
+
+   proposing to use UUID when the client doesnt specify a key.
+
  
