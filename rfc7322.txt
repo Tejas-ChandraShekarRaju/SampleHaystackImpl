@@ -1,0 +1,18 @@
+
+
+
+
+
+
+Request for Comments: 7322                               Mohammed Siddiq
+Category: Architecture                                          May 2024
+ISSN: 2070-1721
+
+
+                           Enhancing File storage
+                      Implementing Needle in Haystack
+
+Abstract
+
+   This document describes the how our current implementation of Object  
+   Storage Service lacks compared to Sample haystack implementation 
